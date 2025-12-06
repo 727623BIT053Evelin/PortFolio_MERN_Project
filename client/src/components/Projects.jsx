@@ -14,8 +14,8 @@ const Projects = ({ fromHome }) => {
             description: 'A modern, responsive portfolio website built with the MERN stack. Features dynamic content management, interactive UI components, achievement showcase, project gallery, and contact form. Demonstrates full-stack development skills with React frontend and Node.js backend.',
             technologies: ['React', 'Node.js', 'MongoDB', 'Express'],
             imageUrl: '/portfolio-project.png',
-            projectUrl: 'https://github.com/yourusername/portfolio',
-            githubUrl: 'https://github.com/yourusername/portfolio',
+            projectUrl: 'https://github.com/727623BIT053Evelin/PortFolio_MERN_Project',
+            githubUrl: 'https://github.com/727623BIT053Evelin/PortFolio_MERN_Project',
         },
         {
             _id: '2',
