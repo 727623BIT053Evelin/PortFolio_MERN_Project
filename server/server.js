@@ -12,19 +12,8 @@ connectDB();
 
 const app = express();
 
-// CORS configuration
-const corsOptions = {
-    origin: [
-        'http://localhost:5173',
-        'http://localhost:3000',
-        'https://evelin-portfolio-mern-project.vercel.app'
-    ],
-    credentials: true,
-    optionsSuccessStatus: 200
-};
-
 // Middleware
-app.use(cors(corsOptions));
+app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
