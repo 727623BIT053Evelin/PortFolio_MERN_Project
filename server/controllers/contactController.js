@@ -7,7 +7,20 @@ const nodemailer = require('nodemailer');
 // @access  Public
 const submitContact = async (req, res) => {
     try {
+        console.log('Contact form submission received:', req.body);
+
+        // Validate required fields
+        const { name, email, subject, message } = req.body;
+        if (!name || !email || !message) {
+            return res.status(400).json({
+                success: false,
+                error: 'Missing required fields: name, email, and message are required',
+            });
+        }
+
+        // Create contact in database
         const contact = await Contact.create(req.body);
+        console.log('Contact saved to database:', contact._id);
 
         // Create transporter
         const transporter = nodemailer.createTransport({
@@ -34,7 +47,13 @@ const submitContact = async (req, res) => {
         };
 
         // Send email
-        await transporter.sendMail(mailOptions);
+        try {
+            await transporter.sendMail(mailOptions);
+            console.log('Email sent successfully');
+        } catch (emailError) {
+            console.error('Email sending failed, but contact saved:', emailError.message);
+            // Don't fail the request if email fails, contact is already saved
+        }
 
         res.status(201).json({
             success: true,
@@ -42,10 +61,20 @@ const submitContact = async (req, res) => {
             data: contact,
         });
     } catch (error) {
-        console.error('Email error:', error);
+        console.error('Contact submission error:', error);
+
+        // Handle validation errors
+        if (error.name === 'ValidationError') {
+            const messages = Object.values(error.errors).map(err => err.message);
+            return res.status(400).json({
+                success: false,
+                error: 'Validation failed: ' + messages.join(', '),
+            });
+        }
+
         res.status(400).json({
             success: false,
-            error: error.message,
+            error: error.message || 'Failed to submit contact form',
         });
     }
 };
