@@ -55,8 +55,8 @@ const Achievements = ({ fromHome }) => {
         },
         {
             _id: '6',
-            title: 'First Prize - Endeavors (FIESTAA\'24)',
-            description: 'Secured 1st prize in the event "Endeavors" of FIESTAA\'24 organized by KPR Institute of Engineering and Technology, Coimbatore held on March 27th and 28th 2024.',
+            title: 'Second Prize - Eduventures (FIESTAA\'24)',
+            description: 'Secured 2nd prize in the event "Eduventures" of FIESTAA\'24 organized by KPR Institute of Engineering and Technology, Coimbatore held on March 27th and 28th 2024.',
             date: '2024-03-27',
             category: 'award',
             imageUrl: '/kpr-endeavors-certificate.png',
@@ -92,8 +92,8 @@ const Achievements = ({ fromHome }) => {
         },
         {
             _id: '10',
-            title: 'Second Prize - Snap Speech (FIESTAA\'24)',
-            description: 'Secured 2nd prize in the event "Snap Speech" of FIESTAA\'24 organized by KPR Institute of Engineering and Technology, Coimbatore held on March 27th and 28th 2024.',
+            title: 'Third Prize - Snap Speech (FIESTAA\'24)',
+            description: 'Secured 3rd prize in the event "Snap Speech" of FIESTAA\'24 organized by KPR Institute of Engineering and Technology, Coimbatore held on March 27th and 28th 2024.',
             date: '2024-03-27',
             category: 'award',
             imageUrl: '/kpr-snap-speech-certificate.png',
@@ -101,8 +101,8 @@ const Achievements = ({ fromHome }) => {
         },
         {
             _id: '11',
-            title: 'Runner Up - Virtual Viva (FIESTAA\'24)',
-            description: 'Secured Runner Up position in the event "Virtual Viva" of FIESTAA\'24 organized by KPR Institute of Engineering and Technology, Coimbatore held on March 27th and 28th 2024.',
+            title: 'Runner Up - Virtual Vista (FIESTAA\'24)',
+            description: 'Secured Runner Up position in the event "Virtual Vista" of FIESTAA\'24 organized by KPR Institute of Engineering and Technology, Coimbatore held on March 27th and 28th 2024.',
             date: '2024-03-27',
             category: 'award',
             imageUrl: '/virtual-viva-certificate.png',

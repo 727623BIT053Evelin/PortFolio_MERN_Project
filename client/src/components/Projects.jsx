@@ -32,8 +32,8 @@ const Projects = ({ fromHome }) => {
             description: 'A comprehensive PCOS prediction and care platform using machine learning. Features personalized assessment, community support, expert consultation booking, and 24/7 health guidance for women\'s health.',
             technologies: ['React', 'Node.js', 'Machine Learning'],
             imageUrl: '/pcos-project.png',
-            projectUrl: 'https://github.com/727623BIT053Evelin/PCOS-prediction',
-            githubUrl: 'https://github.com/727623BIT053Evelin/PCOS-prediction',
+            projectUrl: 'https://github.com/727623BIT053Evelin/Non-invasive-PCOS-Mern-Project',
+            githubUrl: 'https://github.com/727623BIT053Evelin/Non-invasive-PCOS-Mern-Project',
         },
         {
             _id: '4',
