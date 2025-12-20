@@ -9,6 +9,15 @@ const Projects = ({ fromHome }) => {
     // Placeholder data
     const placeholderProjects = [
         {
+            _id: '6',
+            title: 'AI Quality Guardian',
+            description: 'An AI-powered B2B dataset quality management platform. Features a comprehensive dashboard for monitoring data quality scores, tracking issue trends, and performing detailed analysis of dataset health with automated issue detection.',
+            technologies: ['Python', 'Machine Learning', 'Streamlit', 'MERN'],
+            imageUrl: '/quality-guardian-project.png',
+            projectUrl: 'https://github.com/727623BIT053Evelin/quality_quardian.git',
+            githubUrl: 'https://github.com/727623BIT053Evelin/quality_quardian.git',
+        },
+        {
             _id: '1',
             title: 'Personal Portfolio Website',
             description: 'A modern, responsive portfolio website built with the MERN stack. Features dynamic content management, interactive UI components, achievement showcase, project gallery, and contact form. Demonstrates full-stack development skills with React frontend and Node.js backend.',
