@@ -34,8 +34,8 @@ const Hero = () => {
 
                     <div className="flex flex-wrap items-center justify-center md:justify-start gap-4 mb-8">
                         <a
-                            href="/727623BIT053_Evelin_2026.pdf"
-                            download="Evelin_Resume_2026.pdf"
+                            href="/Resume.pdf"
+                            download="Evelin_Resume.pdf"
                             className="px-8 py-3 rounded-full border-2 border-accent text-white font-medium hover:bg-accent hover:text-primary transition-all duration-300"
                         >
                             Download CV
