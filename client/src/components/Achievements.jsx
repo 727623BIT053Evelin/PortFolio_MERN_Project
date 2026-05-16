@@ -53,16 +53,7 @@ const Achievements = ({ fromHome }) => {
             imageUrl: '/hackventure-certificate.png',
             credentialUrl: '/hackventure-certificate.png'
         },
-        {
-            _id: '6',
-            title: 'Second Prize - Eduventures (FIESTAA\'24)',
-            description: 'Secured 2nd prize in the event "Eduventures" of FIESTAA\'24 organized by KPR Institute of Engineering and Technology, Coimbatore held on March 27th and 28th 2024.',
-            date: '2024-03-27',
-            category: 'award',
-            imageUrl: '/kpr-endeavors-certificate.png',
-            credentialUrl: '/kpr-endeavors-certificate.png'
-        },
-        // === SECOND PLACE / RUNNERS UP ===
+        // === SECOND PLACE / RUNNERS UP / THIRD PLACE ===
         {
             _id: '7',
             title: 'Second Place - Innovators Arena (TECHNOFETE\'25)',
@@ -71,6 +62,15 @@ const Achievements = ({ fromHome }) => {
             category: 'award',
             imageUrl: '/technofete-certificate.png',
             credentialUrl: '/technofete-certificate.png'
+        },
+        {
+            _id: '25',
+            title: 'Second Place - Innovators Battle (HELIX\'26)',
+            description: 'Achieved 2nd place in the "Innovators Battle" event as part of HELIX\'26, organized by the ECE Department Association - SPECTRUM on 1st & 2nd April 2026.',
+            date: '2026-04-01',
+            category: 'award',
+            imageUrl: '/innovatorsBattle.png',
+            credentialUrl: '/innovatorsBattle.png'
         },
         {
             _id: '8',
@@ -91,13 +91,22 @@ const Achievements = ({ fromHome }) => {
             credentialUrl: '/handmade-hues-certificate.png'
         },
         {
-            _id: '10',
-            title: 'Third Prize - Snap Speech (FIESTAA\'24)',
-            description: 'Secured 3rd prize in the event "Snap Speech" of FIESTAA\'24 organized by KPR Institute of Engineering and Technology, Coimbatore held on March 27th and 28th 2024.',
+            _id: '6',
+            title: 'Second Prize - Eduventures (FIESTAA\'24)',
+            description: 'Secured 2nd prize in the event "Eduventures" of FIESTAA\'24 organized by KPR Institute of Engineering and Technology, Coimbatore held on March 27th and 28th 2024.',
             date: '2024-03-27',
             category: 'award',
-            imageUrl: '/kpr-snap-speech-certificate.png',
-            credentialUrl: '/kpr-snap-speech-certificate.png'
+            imageUrl: '/kpr-endeavors-certificate.png',
+            credentialUrl: '/kpr-endeavors-certificate.png'
+        },
+        {
+            _id: '12',
+            title: 'Second Prize - Wealth out of Waste (FIESTAA\'24)',
+            description: 'Secured 2nd prize in the event "Wealth out of Waste" of FIESTAA\'24 organized by KPR Institute of Engineering and Technology, Coimbatore held on March 27th and 28th 2024.',
+            date: '2024-03-27',
+            category: 'award',
+            imageUrl: '/wealth-waste-certificate.png',
+            credentialUrl: '/wealth-waste-certificate.png'
         },
         {
             _id: '11',
@@ -109,13 +118,22 @@ const Achievements = ({ fromHome }) => {
             credentialUrl: '/virtual-viva-certificate.png'
         },
         {
-            _id: '12',
-            title: 'Second Prize - Wealth out of Waste (FIESTAA\'24)',
-            description: 'Secured 2nd prize in the event "Wealth out of Waste" of FIESTAA\'24 organized by KPR Institute of Engineering and Technology, Coimbatore held on March 27th and 28th 2024.',
+            _id: '26',
+            title: 'Third Place - Pixel to Prompt (HELIX\'26)',
+            description: 'Secured 3rd place in the "Pixel to Prompt" competition as part of HELIX\'26, organized by the ECE Department Association - SPECTRUM on 1st & 2nd April 2026.',
+            date: '2026-04-01',
+            category: 'award',
+            imageUrl: '/pixelToPrompt.png',
+            credentialUrl: '/pixelToPrompt.png'
+        },
+        {
+            _id: '10',
+            title: 'Third Prize - Snap Speech (FIESTAA\'24)',
+            description: 'Secured 3rd prize in the event "Snap Speech" of FIESTAA\'24 organized by KPR Institute of Engineering and Technology, Coimbatore held on March 27th and 28th 2024.',
             date: '2024-03-27',
             category: 'award',
-            imageUrl: '/wealth-waste-certificate.png',
-            credentialUrl: '/wealth-waste-certificate.png'
+            imageUrl: '/kpr-snap-speech-certificate.png',
+            credentialUrl: '/kpr-snap-speech-certificate.png'
         },
         // === PARTICIPATION & APPRECIATION ===
         {

@@ -9,6 +9,15 @@ const Projects = ({ fromHome }) => {
     // Placeholder data
     const placeholderProjects = [
         {
+            _id: '7',
+            title: 'Imagify - AI Image Generator',
+            description: 'A full-stack AI image generation platform built with the MERN stack. Integrates with powerful AI models to generate high-quality images from text prompts, featuring user authentication, credit management, and a responsive image gallery.',
+            technologies: ['React', 'Node.js', 'MongoDB', 'Express', 'AI'],
+            imageUrl: '/imagify-project.png',
+            projectUrl: 'https://github.com/727623BIT053Evelin/AI-Image-Generator.git',
+            githubUrl: 'https://github.com/727623BIT053Evelin/AI-Image-Generator.git',
+        },
+        {
             _id: '6',
             title: 'AI Quality Guardian',
             description: 'An AI-powered B2B dataset quality management platform. Features a comprehensive dashboard for monitoring data quality scores, tracking issue trends, and performing detailed analysis of dataset health with automated issue detection.',

@@ -35,6 +35,14 @@ const Hero = () => {
                     <div className="flex flex-wrap items-center justify-center md:justify-start gap-4 mb-8">
                         <a
                             href="/Resume.pdf"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="px-8 py-3 rounded-full bg-accent text-primary font-bold hover:bg-accent/90 transition-all duration-300"
+                        >
+                            View Resume
+                        </a>
+                        <a
+                            href="/Resume.pdf"
                             download="Evelin_Resume.pdf"
                             className="px-8 py-3 rounded-full border-2 border-accent text-white font-medium hover:bg-accent hover:text-primary transition-all duration-300"
                         >
